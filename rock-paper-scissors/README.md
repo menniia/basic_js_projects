@@ -2,6 +2,10 @@
 
 This project is a simple Rock Paper Scissors game implemented in JavaScript. It allows the user to play against the computer.
 
+## Screenshot
+
+![Rock Paper Scissors Screenshot](rock-paper-scissors.png)
+
 ## How to Play
 
 1. Open the `rock-paper-scissors` folder.

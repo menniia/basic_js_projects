@@ -2,9 +2,34 @@ body {
     background-color: rgb(25, 25, 25);
     color: white;
     font-family: Arial;
+    margin-left: 20px;
   }
 
   .title {
     font-size: 30px;
     font-weight: bold;
+  }
+
+  .move-icon {
+    height: 70px;
+  }
+
+  .move-button {
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .reset-score-button {
+    background-color: white;
+    border: none;
+    padding: 8px 13px;
+    font-size: 15px;
+    cursor: pointer;
   }

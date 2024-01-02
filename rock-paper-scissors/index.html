@@ -10,11 +10,21 @@
   <body>
     <p class="title">Rock Paper Scissors</p>
 
-    <button onclick="playGame('Rock')">Rock</button>
+    <button onclick="playGame('Rock')" class="move-button">
+      <img class="move-icon" src="images/rock-emoji.png" alt="rock-emoji" />
+    </button>
 
-    <button onclick="playGame('Paper')">Paper</button>
+    <button onclick="playGame('Paper')" class="move-button">
+      <img class="move-icon" src="images/paper-emoji.png" alt="paper-emoji" />
+    </button>
 
-    <button onclick="playGame('Scissors')">Scissors</button>
+    <button onclick="playGame('Scissors')" class="move-button">
+      <img
+        class="move-icon"
+        src="images/scissors-emoji.png"
+        alt="scissors-emoji"
+      />
+    </button>
 
     <p class="js-result"></p>
 
@@ -31,6 +41,7 @@
     localStorage.removeItem('score');
     
     updateScoreElement();"
+      class="reset-score-button"
     >
       Reset Score
     </button>
