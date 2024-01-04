@@ -1,0 +1,25 @@
+input {
+    margin: 3px;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+button {
+    color: white;
+    background-color: rgb(18, 123, 18);
+    border: none;
+    padding: 9px 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.errorMessage {
+    color: red;
+}
