@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>Shipping Cart Calculator</title>
   </head>
   <body>
-    <p>Amazon Shipping Calculator</p>
-    <p>Orders under $40 = +$10 Shipping</p>
-    <p>Orders over $40 = FREE Shipping</p>
+    <p>Shipping Cart Calculator</p>
+    <p>Orders under GH₵40 = +GH₵10 Shipping</p>
+    <p>Orders over GH₵40 = FREE Shipping</p>
     <input
       type="text"
       placeholder="Cost of order"
@@ -18,23 +19,5 @@
     />
     <button onclick="calculateTotal()">Calculate</button>
     <p class="js-total-cost"></p>
-
-    <script>
-      function handleCostKeyDown(event) {
-        if (event.key === "Enter") {
-          calculateTotal();
-        }
-      }
-      function calculateTotal() {
-        const inputElement = document.querySelector(".js-cost-input");
-        let cost = Number(inputElement.value);
-
-        if (cost < 40) {
-          cost += 10;
-        }
-
-        document.querySelector(".js-total-cost").innerHTML = `${cost}`;
-      }
-    </script>
   </body>
 </html>
