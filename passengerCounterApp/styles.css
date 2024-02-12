@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: darkred;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#increment-btn {
+    background-color: darkred;
+}
+
+#save-btn {
+    background-color: darkgreen;
+    
+}
+
+#increment-btn,
+#save-btn {
+    cursor: pointer;
+}
